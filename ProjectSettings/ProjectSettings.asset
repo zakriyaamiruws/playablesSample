@@ -806,7 +806,7 @@ PlayerSettings:
   webGLDecompressionFallback: 0
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Standalone: REPLACEMENT_DEFINE
+    Standalone: REPLACEMENT_DEFINE;LUNA_IS_PRESENT
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
