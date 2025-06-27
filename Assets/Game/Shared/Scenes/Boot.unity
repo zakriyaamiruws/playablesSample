@@ -9877,6 +9877,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6409182846355686473, guid: 1d4809db3f75aa1459137edff6b705e5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6409182846355686476, guid: 1d4809db3f75aa1459137edff6b705e5, type: 3}
       propertyPath: m_UpdateMode
       value: 2

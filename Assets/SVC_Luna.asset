@@ -165,70 +165,6 @@ MonoBehaviour:
     - UNITY_UI_ALPHACLIP
     - UNITY_UI_CLIP_RECT
   - shaderCompilerPlatform: 5
-    shader: {fileID: 4800000, guid: 12a8cc6f8fa05ab49a845b58de64c0ee, type: 3}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - LIGHTMAP_OFF
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 4800000, guid: 12a8cc6f8fa05ab49a845b58de64c0ee, type: 3}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - LIGHTMAP_OFF
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 4800000, guid: 12a8cc6f8fa05ab49a845b58de64c0ee, type: 3}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - FOG_LINEAR
-    - LIGHTMAP_OFF
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 4800000, guid: 12a8cc6f8fa05ab49a845b58de64c0ee, type: 3}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - FOG_LINEAR
-    - LIGHTMAP_OFF
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords: []
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords: []
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - FOG_LINEAR
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - FOG_LINEAR
-  - shaderCompilerPlatform: 5
     shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
     passType: 4
     passId: 0
@@ -1425,6 +1361,70 @@ MonoBehaviour:
     keywords:
     - SHADOWS_DEPTH
   - shaderCompilerPlatform: 5
+    shader: {fileID: 4800000, guid: 12a8cc6f8fa05ab49a845b58de64c0ee, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - LIGHTMAP_OFF
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 4800000, guid: 12a8cc6f8fa05ab49a845b58de64c0ee, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - LIGHTMAP_OFF
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 4800000, guid: 12a8cc6f8fa05ab49a845b58de64c0ee, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - FOG_LINEAR
+    - LIGHTMAP_OFF
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 4800000, guid: 12a8cc6f8fa05ab49a845b58de64c0ee, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - FOG_LINEAR
+    - LIGHTMAP_OFF
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords: []
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords: []
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - FOG_LINEAR
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - FOG_LINEAR
+  - shaderCompilerPlatform: 5
     shader: {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
     passType: 4
     passId: 0
@@ -1634,6 +1634,36 @@ MonoBehaviour:
     - FOG_LINEAR
   - shaderCompilerPlatform: 9
     shader: {fileID: 10755, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - FOG_LINEAR
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 10720, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords: []
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 10720, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords: []
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 10720, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - FOG_LINEAR
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 10720, guid: 0000000000000000f000000000000000, type: 0}
     passType: 0
     passId: 0
     subShaderIndex: 0
@@ -1670,36 +1700,6 @@ MonoBehaviour:
     upToDate: 0
     keywords:
     - PIXELSNAP_ON
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 10720, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords: []
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 10720, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords: []
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 10720, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - FOG_LINEAR
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 10720, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - FOG_LINEAR
   - shaderCompilerPlatform: 5
     shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
     passType: 0
@@ -2443,7 +2443,7 @@ MonoBehaviour:
     keywords: []
   _includedShaderVariants: []
   _excludedShaderVariants: []
-  version: 40
+  version: 84
   _shaderParsedShaders:
   - ParsedSubShaders:
     - Index: 0
