@@ -78,16 +78,16 @@ namespace HyperCasual.Runner
 
         void ActivateGate()
         {
-            // switch (m_GateType)
-            // {
-            //     case GateType.ChangeSpeed:
-            //         PlayerController.Instance.AdjustSpeed(m_Value);
-            //     break;
+            switch (m_GateType)
+            {
+                case GateType.ChangeSpeed:
+                    PlayerController.Instance.AdjustSpeed(m_Value);
+                break;
 
-            //     case GateType.ChangeSize:
-            //         PlayerController.Instance.AdjustScale(m_Value);
-            //     break;
-            // }
+                case GateType.ChangeSize:
+                    PlayerController.Instance.AdjustScale(m_Value);
+                break;
+            }
 
             m_Applied = true;
         }

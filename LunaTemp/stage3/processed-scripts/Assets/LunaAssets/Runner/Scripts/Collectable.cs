@@ -50,6 +50,7 @@ namespace HyperCasual.Runner
         {
             if (col.CompareTag(k_PlayerTag) && !m_Collected)
             {
+                GetComponent<SphereCollider>().enabled = false;
                 Collect();
             }
         }
