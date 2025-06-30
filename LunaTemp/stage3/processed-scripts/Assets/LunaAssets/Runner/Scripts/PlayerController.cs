@@ -38,4 +38,14 @@ public class PlayerController : MonoBehaviour
     {
         rb.velocity = Vector3.zero;
     }
+
+    public void AdjustSpeed(float value)
+    {
+        maxSpeed += value;
+    }
+
+    public void AdjustScale(float value)
+    {
+        transform.localScale = new Vector3(transform.localScale.x + value,transform.localScale.y + value,transform.localScale.z + value);
+    }
 }
