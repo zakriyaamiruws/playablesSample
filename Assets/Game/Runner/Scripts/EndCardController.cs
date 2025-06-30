@@ -332,9 +332,8 @@ public class EndCardController : MonoBehaviour
 
     public void ClickCTA()
     {
-        Debug.Log("zak1");
+        Debug.Log("Open Ad clicked");
 #if LUNA_IS_PRESENT || LUNA_EDITOR_SOURCES
-        Debug.Log("zak2");
         Luna.Unity.Playable.InstallFullGame();
 #endif
     }

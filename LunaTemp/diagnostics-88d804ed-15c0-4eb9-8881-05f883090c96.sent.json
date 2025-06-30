@@ -1,0 +1,477 @@
+{
+    "BuildID": "88d804ed-15c0-4eb9-8881-05f883090c96",
+    "Command": "project:build",
+    "ProjectID": "823cbd53-5386-408c-9595-fde0da052c3e",
+    "ProjectStateHash": "ee7bfe7f0cc1671abc36fe11c2ac2f6dd7f61e41712c13beb200656c7e57c5fd",
+    "StageCompletedAt": 3,
+    "EarliestFatalError": 0,
+    "StartTime": 1751263715496,
+    "EndTime": 1751263757699,
+    "PlaygroundUserID": 25185,
+    "OperatingSystem": "darwin",
+    "UnityPackageID": null,
+    "TargetPlatform": "develop",
+    "UnityVersion": "2021.3.18f1",
+    "LunaVersion": "6.3.0",
+    "LogCount": 16,
+    "Logs": [
+        {
+            "LogID": "33ee6789-35bb-41ec-93da-1b577e0b02b5",
+            "Order": 14,
+            "Timestamp": 1751263757768,
+            "Stage": 3,
+            "ErrorType": 0,
+            "ErrorCode": "LP3013",
+            "Description": "You are using an unsupported JSON feature: JsonUtility.",
+            "Details": [
+                "You are using an unsupported JSON feature: JsonUtility. Please use Newtonsoft.JSON instead. "
+            ],
+            "DescriptionValues": [
+                "JsonUtility"
+            ],
+            "DetailsValues": [
+                "JsonUtility"
+            ],
+            "LogCount": 1,
+            "LinePosition": 21,
+            "FilePath": "/Users/zakriyaamir/playablesSample/Assets/Game/Core/Scripts/Utils/PlayerPrefUtils.cs",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "4380a3c7-f991-4529-90b1-e7e478ece4f7",
+            "Order": 14,
+            "Timestamp": 1751263757768,
+            "Stage": 3,
+            "ErrorType": 0,
+            "ErrorCode": "LP3013",
+            "Description": "You are using an unsupported JSON feature: JsonUtility.",
+            "Details": [
+                "You are using an unsupported JSON feature: JsonUtility. Please use Newtonsoft.JSON instead. "
+            ],
+            "DescriptionValues": [
+                "JsonUtility"
+            ],
+            "DetailsValues": [
+                "JsonUtility"
+            ],
+            "LogCount": 1,
+            "LinePosition": 33,
+            "FilePath": "/Users/zakriyaamir/playablesSample/Assets/Game/Core/Scripts/Utils/PlayerPrefUtils.cs",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "64ba9986-9764-4bbc-bf10-5998531c18ff",
+            "Order": 14,
+            "Timestamp": 1751263757851,
+            "Stage": 3,
+            "ErrorType": 3,
+            "ErrorCode": "LP3008",
+            "Description": "You are only using: 1 custom events.",
+            "Details": [
+                "You are only using 1 custom events. It is recommended to use more custom events to have a better understanding of the playable."
+            ],
+            "DescriptionValues": [
+                "1"
+            ],
+            "DetailsValues": [
+                "1"
+            ],
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "1ac3f9f5-e50e-4715-9f42-9bdbf8e350ed",
+            "Order": 0,
+            "Timestamp": 1751263719602,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1030",
+            "Description": "TMP Font Asset uses unsupported 'Atlas Population Mode'",
+            "Details": [
+                "TMP Font Asset '{0}' uses Atlas Population Mode '{1}' which is not supported"
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                "LiberationSans SDF - Fallback",
+                "Dynamic"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "254b2cd6-e52f-4b93-a318-0045d81ff87f",
+            "Order": 1,
+            "Timestamp": 1751263720113,
+            "Stage": 1,
+            "ErrorType": 2,
+            "ErrorCode": "LP1001",
+            "Description": "Update shader stripping settings",
+            "Details": [
+                "Some of the scenes appear to have fog enabled and / or lightmapping data. Please modify 'Shader stripping' settings to always include required shader variants."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "64d6f8f9-f874-49aa-9d7b-1d056248f8a9",
+            "Order": 2,
+            "Timestamp": 1751263720426,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1009",
+            "Description": "Playground Asset has no default value",
+            "Details": [
+                "[LunaPlaygroundAsset] Attribute added onto '_backgroundTexture' field of 'EndCardController' class must have a default value to appear in Playground."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                "_backgroundTexture",
+                "EndCardController"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "4cd5bb1b-e945-40e5-a57a-29b29b319479",
+            "Order": 3,
+            "Timestamp": 1751263720426,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1009",
+            "Description": "Playground Asset has no default value",
+            "Details": [
+                "[LunaPlaygroundAsset] Attribute added onto '_iconTexture' field of 'EndCardController' class must have a default value to appear in Playground."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                "_iconTexture",
+                "EndCardController"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "d4e54df5-9a80-4561-a023-6bfc8822e733",
+            "Order": 4,
+            "Timestamp": 1751263720426,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1009",
+            "Description": "Playground Asset has no default value",
+            "Details": [
+                "[LunaPlaygroundAsset] Attribute added onto '_backgroundTexture' field of 'EndCardController' class must have a default value to appear in Playground."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                "_backgroundTexture",
+                "EndCardController"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "51caf768-e91b-4e73-bdde-5f22359323ac",
+            "Order": 5,
+            "Timestamp": 1751263720426,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1009",
+            "Description": "Playground Asset has no default value",
+            "Details": [
+                "[LunaPlaygroundAsset] Attribute added onto '_iconTexture' field of 'EndCardController' class must have a default value to appear in Playground."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                "_iconTexture",
+                "EndCardController"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "40fe9e49-67d2-4500-b812-9cb789d09413",
+            "Order": 6,
+            "Timestamp": 1751263720426,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1009",
+            "Description": "Playground Asset has no default value",
+            "Details": [
+                "[LunaPlaygroundAsset] Attribute added onto '_backgroundTexture' field of 'EndCardController' class must have a default value to appear in Playground."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                "_backgroundTexture",
+                "EndCardController"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "df0b9796-2e18-4653-9e28-c16d153c6e0e",
+            "Order": 7,
+            "Timestamp": 1751263720426,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1009",
+            "Description": "Playground Asset has no default value",
+            "Details": [
+                "[LunaPlaygroundAsset] Attribute added onto '_iconTexture' field of 'EndCardController' class must have a default value to appear in Playground."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                "_iconTexture",
+                "EndCardController"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "a6dcb58e-8b72-4de5-90d3-5931a47967e6",
+            "Order": 8,
+            "Timestamp": 1751263730017,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1006",
+            "Description": "Linear color space is not supported",
+            "Details": [
+                "Due to compatibility reasons, Luna is only able to use Gamma color space for rendering. Please adjust your player settings."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "697b0e51-e946-4de8-b849-a992b519346d",
+            "Order": 9,
+            "Timestamp": 1751263730018,
+            "Stage": 1,
+            "ErrorType": 2,
+            "ErrorCode": "LP1022",
+            "Description": "Extensive use of shader variants",
+            "Details": [
+                "Extensive usage of shader variants negatively affects playable startup time. Please consider them to be less than 20 (32 found). Check Runtime analysis -> shader tab to see used shaders."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                "20",
+                "32"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "8aaebeba-4925-4316-afb4-2b44958343ad",
+            "Order": 10,
+            "Timestamp": 1751263730021,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1032",
+            "Description": "Package(s) is not supported in Luna",
+            "Details": [
+                "Currently package(s) com.unity.timeline are not supported in Luna. We recommend you to remove it and workaround it's functionality."
+            ],
+            "DescriptionValues": [
+                "com.unity.timeline (1.7.1)"
+            ],
+            "DetailsValues": [
+                "com.unity.timeline"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "/Users/zakriyaamir/playablesSample/Packages/manifest.json",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "417d9b2f-6987-470c-9259-3682ec5aa682",
+            "Order": 11,
+            "Timestamp": 1751263730022,
+            "Stage": 1,
+            "ErrorType": 3,
+            "ErrorCode": "LP1002",
+            "Description": "Repeat wrap mode used on a texture with non power-of-two dimensions, this might not be rendered correctly.",
+            "Details": [
+                "Repeat wrap mode used on 'LiberationSans SDF Atlas' texture at 'Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset' with non power-of-two dimensions, this might not be rendered correctly."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                "LiberationSans SDF Atlas",
+                "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "a9602540-cd79-4662-86a1-de00733164e8",
+            "Order": 12,
+            "Timestamp": 1751263730022,
+            "Stage": 1,
+            "ErrorType": 2,
+            "ErrorCode": "LP1010",
+            "Description": "Looks like a collider was scaled, this might affect performance.",
+            "Details": [
+                "Gate_SizeIncrease",
+                "Gate_SizeDecrease",
+                "Gate_SizeIncrease",
+                "Gate_SizeDecrease",
+                "Collectable_Coin",
+                "WaterPlane",
+                "Gate_SizeIncrease",
+                "Gate_SizeDecrease",
+                "Gate_SizeIncrease",
+                "Gate_SizeDecrease",
+                "Gate_SizeIncrease",
+                "Gate_SizeDecrease",
+                "Gate_SizeIncrease",
+                "Gate_SizeDecrease",
+                "Gate_SizeIncrease",
+                "Gate_SizeDecrease",
+                "Gate_SizeIncrease",
+                "Gate_SizeDecrease",
+                "Collectable_Coin",
+                "Collectable_Coin (1)",
+                "Collectable_Coin (2)",
+                "Collectable_Coin (3)",
+                "Collectable_Coin (4)",
+                "Collectable_Coin (5)",
+                "Collectable_Coin (6)",
+                "Collectable_Coin (7)",
+                "Collectable_Coin (9)",
+                "Collectable_Coin (11)",
+                "Collectable_Coin (12)",
+                "Collectable_Coin (10)",
+                "Collectable_Coin (13)",
+                "Collectable_Coin (14)",
+                "Collectable_Coin (15)",
+                "Collectable_Coin (16)",
+                "Collectable_Coin (17)",
+                "Collectable_Coin (18)",
+                "Collectable_Coin (19)",
+                "Collectable_Coin (20)",
+                "Collectable_Coin (21)",
+                "Collectable_Coin (22)",
+                "Collectable_Coin (23)",
+                "Collectable_Coin (24)",
+                "Collectable_Coin (25)",
+                "Collectable_Coin (26)",
+                "Collectable_Coin (27)",
+                "Collectable_Coin (28)",
+                "Collectable_Coin (29)",
+                "Collectable_Coin (30)",
+                "Collectable_Coin (31)",
+                "Collectable_Coin (32)",
+                "Collectable_Coin (33)",
+                "Collectable_Coin (34)",
+                "Collectable_Coin (35)",
+                "Collectable_Coin (36)",
+                "Collectable_Coin (37)",
+                "Collectable_Coin (38)",
+                "Collectable_Coin (39)",
+                "Collectable_Coin (40)",
+                "Collectable_Coin (41)",
+                "Collectable_Coin (42)",
+                "Collectable_Coin (43)",
+                "Collectable_Coin (44)",
+                "Collectable_Coin (45)",
+                "Collectable_Coin (46)",
+                "Collectable_Coin (47)",
+                "Collectable_Coin (48)",
+                "Collectable_Coin (49)",
+                "Collectable_Coin (50)",
+                "Collectable_Coin (51)",
+                "Collectable_Coin (52)",
+                "Collectable_Coin (53)",
+                "Collectable_Coin (54)",
+                "Collectable_Coin (55)",
+                "Collectable_Coin (56)",
+                "Collectable_Coin (57)",
+                "Collectable_Coin (58)",
+                "Collectable_Coin (59)",
+                "Collectable_Coin (60)",
+                "Collectable_Coin (61)",
+                "Collectable_Coin (62)",
+                "Collectable_Coin (63)",
+                "Collectable_Coin (64)",
+                "Collectable_Coin (65)",
+                "Collectable_Coin (66)",
+                "Collectable_Coin (67)",
+                "Collectable_Coin (68)",
+                "Collectable_Coin (69)",
+                "Collectable_Coin (70)",
+                "Collectable_Coin (71)",
+                "Collectable_Coin (72)",
+                "Collectable_Coin (73)",
+                "Collectable_Coin (74)",
+                "Collectable_Coin (75)",
+                "StartLine(Clone)",
+                "FinishLine(Clone)",
+                "running plane"
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [],
+            "LogCount": 96,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        }
+    ]
+}
