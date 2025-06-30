@@ -10,6 +10,7 @@ namespace HyperCasual.Runner
         KeySound,
         ButtonSound,
         MenuMusic,
-        EndSound
+        EndSound,
+        FailSound
     }
 }

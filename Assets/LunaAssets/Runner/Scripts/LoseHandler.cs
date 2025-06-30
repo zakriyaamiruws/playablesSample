@@ -7,7 +7,7 @@ namespace HyperCasual.Runner
     public class LoseHandler : Spawnable
     {
         const string k_PlayerTag = "Player";
-        
+
         [SerializeField]
         AbstractGameEvent m_LoseEvent;
 
@@ -17,6 +17,7 @@ namespace HyperCasual.Runner
             {
                 Debug.Log("Failed!");
                 CameraManager.Instance.enabled = false;
+                m_LoseEvent.Raise();
                 GameManager.Instance.Lose();
             }
         }
