@@ -1,79 +1,57 @@
 using UnityEngine;
-//using UnityEngine.InputSystem;
-//using UnityEngine.InputSystem.EnhancedTouch;
-//using Touch = UnityEngine.InputSystem.EnhancedTouch.Touch;
 
-namespace HyperCasual.Runner
+public class InputManager : MonoBehaviour
 {
-    /// <summary>
-    /// A simple Input Manager for a Runner game.
-    /// </summary>
-    public class InputManager : MonoBehaviour
+    public static InputManager Instance => s_Instance;
+    static InputManager s_Instance;
+
+    [SerializeField]
+    float m_InputSensitivity = 5f;
+
+    bool m_HasInput;
+    Vector3 m_InputPosition;
+    Vector3 m_DragOrigin;
+
+    void Awake()
     {
-        /// <summary>
-        /// Returns the InputManager.
-        /// </summary>
-        public static InputManager Instance => s_Instance;
-        static InputManager s_Instance;
-
-        [SerializeField]
-        float m_InputSensitivity = 1.5f;
-
-        bool m_HasInput;
-        Vector3 m_InputPosition;
-        Vector3 m_PreviousInputPosition;
-
-        void Awake()
+        if (s_Instance != null && s_Instance != this)
         {
-            if (s_Instance != null && s_Instance != this)
-            {
-                Destroy(gameObject);
-                return;
-            }
-
-            s_Instance = this;
+            Destroy(gameObject);
+            return;
         }
 
+        s_Instance = this;
+    }
 
-        void Update()
+    void Update()
+    {
+        if (PlayerController.Instance == null)
+            return;
+
+        m_InputPosition = Input.mousePosition;
+
+        if (Input.GetMouseButtonDown(0))
         {
-            if (PlayerController.Instance == null)
-            {
-                return;
-            }
+            m_DragOrigin = m_InputPosition;
+            m_HasInput = true;
+        }
+        else if (Input.GetMouseButtonUp(0))
+        {
+            m_HasInput = false;
+            PlayerController.Instance.CancelMovement(); // Optional — remove if you want it to keep moving
+        }
 
-            m_InputPosition = Input.mousePosition;
+        if (m_HasInput)
+        {
+            Vector2 dragVector = m_InputPosition - m_DragOrigin;
 
-            if(Input.GetMouseButtonDown(0))
-                m_InputPosition = Input.mousePosition;
+            // Normalize screen drag vector relative to screen size
+            float horizontalInput = dragVector.x / Screen.width * m_InputSensitivity;
+            float verticalInput = dragVector.y / Screen.height * m_InputSensitivity;
 
-            if (Input.GetMouseButton(0))
-            {
+            Vector3 moveDirection = new Vector3(horizontalInput, 0f, verticalInput);
 
-                if (!m_HasInput)
-                {
-                    m_PreviousInputPosition = m_InputPosition;
-                }
-                m_HasInput = true;
-            }
-            else
-            {
-                m_HasInput = false;
-            }
-
-
-            if (m_HasInput)
-            {
-                float normalizedDeltaPosition = (m_InputPosition.x - m_PreviousInputPosition.x) / Screen.width * m_InputSensitivity;
-                PlayerController.Instance.SetDeltaPosition(normalizedDeltaPosition);
-            }
-            else
-            {
-                PlayerController.Instance.CancelMovement();
-            }
-
-            m_PreviousInputPosition = m_InputPosition;
+            PlayerController.Instance.RollSphere(moveDirection);
         }
     }
 }
-

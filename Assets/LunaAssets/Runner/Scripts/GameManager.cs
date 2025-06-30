@@ -74,7 +74,7 @@ namespace HyperCasual.Runner
         /// </summary>
         public void ResetLevel()
         {
-            PlayerController.Instance.ResetPlayer();
+            //PlayerController.Instance.ResetPlayer();
             CameraManager.Instance.ResetCamera();
 
             if (LevelManager.Instance != null)

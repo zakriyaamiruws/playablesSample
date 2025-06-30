@@ -99,10 +99,10 @@
             ]
         },
         "scenes": [
-            "Assets/Scenes/LunaDemo.unity"
+            "Assets/Scenes/MyGame.unity"
         ],
         "disabledScenes": [
-            "Assets/Scenes/MyGame.unity"
+            "Assets/Scenes/LunaDemo.unity"
         ],
         "startupScene": 0,
         "packages": {
@@ -1692,10 +1692,6 @@
             },
             {
                 "name": "HyperCasual.Runner.Gate.GateType",
-                "excluded": false
-            },
-            {
-                "name": "HyperCasual.Runner.PlayerController.PlayerSpeedPreset",
                 "excluded": false
             },
             {
@@ -5440,7 +5436,7 @@
             },
             {
                 "name": "UnityEngine.ForceMode",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.ForceMode2D",
@@ -7424,7 +7420,7 @@
             },
             {
                 "name": "Luna.Unity.DTO.UnityEngine.Assets.PhysicMaterial",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "Luna.Unity.DTO.UnityEngine.Assets.PhysicsMaterial2D",
@@ -8304,10 +8300,6 @@
             },
             {
                 "name": "DG.Tweening.SpiralMode",
-                "excluded": true
-            },
-            {
-                "name": "Assets.Scripts.Water.WaterMaterialSwitcher",
                 "excluded": true
             },
             {
@@ -30591,84 +30583,6 @@
                 ]
             },
             {
-                "className": "HyperCasual.Runner.PlayerController",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "Instance#get",
-                        "excluded": false
-                    },
-                    {
-                        "name": "init",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Awake",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Initialize",
-                        "excluded": false
-                    },
-                    {
-                        "name": "GetDefaultSpeed",
-                        "excluded": false
-                    },
-                    {
-                        "name": "ResetSpeed",
-                        "excluded": false
-                    },
-                    {
-                        "name": "AdjustScale",
-                        "excluded": false
-                    },
-                    {
-                        "name": "ResetScale",
-                        "excluded": false
-                    },
-                    {
-                        "name": "GetPlayerTop",
-                        "excluded": false
-                    },
-                    {
-                        "name": "SetDeltaPosition",
-                        "excluded": false
-                    },
-                    {
-                        "name": "CancelMovement",
-                        "excluded": false
-                    },
-                    {
-                        "name": "ResetPlayer",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Update",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Accelerate",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Decelerate",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Approximately",
-                        "excluded": false
-                    },
-                    {
-                        "name": "PlayerWon",
-                        "excluded": false
-                    },
-                    {
-                        "name": "AdjustSpeed",
-                        "excluded": true
-                    }
-                ]
-            },
-            {
                 "className": "HyperCasual.Runner.SaveManager",
                 "staticMethods": [],
                 "instanceMethods": [
@@ -31826,7 +31740,7 @@
                     },
                     {
                         "name": "ctor",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -32361,28 +32275,6 @@
                     {
                         "name": "Update",
                         "excluded": false
-                    }
-                ]
-            },
-            {
-                "className": "HyperCasual.Runner.InputManager",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "init",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Awake",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Update",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Instance#get",
-                        "excluded": true
                     }
                 ]
             },
@@ -34791,38 +34683,6 @@
                 ]
             },
             {
-                "className": "Assets.Scripts.Water.WaterArea",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "WaterPropertyBlock#get",
-                        "excluded": true
-                    }
-                ]
-            },
-            {
-                "className": "Assets.Scripts.Water.WaterPropertyBlockSetter",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "init",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Awake",
-                        "excluded": false
-                    },
-                    {
-                        "name": "SetUpPropertyBlock",
-                        "excluded": false
-                    },
-                    {
-                        "name": "MaterialPropertyBlock#get",
-                        "excluded": true
-                    }
-                ]
-            },
-            {
                 "className": "System.OperationCanceledException",
                 "staticMethods": [],
                 "instanceMethods": [
@@ -35864,11 +35724,11 @@
                     },
                     {
                         "name": "velocity#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "velocity#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "position#get",
@@ -35996,7 +35856,7 @@
                     },
                     {
                         "name": "ctor",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "AddForce",
@@ -36004,7 +35864,7 @@
                     },
                     {
                         "name": "AddForce$1",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "AddRelativeForce$1",
@@ -36129,6 +35989,50 @@
                     {
                         "name": "ctor",
                         "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "InputManager",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Instance#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Update",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "PlayerController",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "RollSphere",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CancelMovement",
+                        "excluded": false
                     }
                 ]
             }

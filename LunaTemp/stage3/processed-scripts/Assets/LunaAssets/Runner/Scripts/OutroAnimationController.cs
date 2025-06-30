@@ -44,7 +44,7 @@ public class OutroAnimationController : MonoBehaviour, IGameEventListener
             confettiParticles[i].gameObject.SetActive(true);
         }
         CoinEffectManager.Instance.Disable();
-        playerController.PlayerWon();
+        //playerController.PlayerWon();
         CameraManager.Instance.GetComponent<Animator>().SetTrigger(OutroTrigger);
         yield return new WaitForSeconds(endCardDelay);
         SequenceManager.SendToEndcard();

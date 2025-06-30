@@ -15,6 +15,8 @@ namespace HyperCasual.Runner
         public static CameraManager Instance => s_Instance;
         static CameraManager s_Instance;
 
+        public Transform targetPlayer;
+
         [SerializeField]
 #if LUNA_IS_PRESENT || LUNA_EDITOR_SOURCES
         [ LunaPlaygroundField("Camera preset", 1, "Gameplay Settings")]
@@ -133,7 +135,7 @@ namespace HyperCasual.Runner
             var playerPosition = Vector3.up;
             if (PlayerController.Instance != null) 
             {
-                playerPosition = PlayerController.Instance.GetPlayerTop();
+                playerPosition = targetPlayer.position;
             }
 
             if (GetCameraLockStatus())
