@@ -3,25 +3,21 @@ using UnityEngine;
 
 namespace HyperCasual.Runner
 {
-    /// <summary>
-    /// Ends the game on collision, forcing a win state.
-    /// </summary>
-    [ExecuteInEditMode]
     [RequireComponent(typeof(Collider))]
-    public class FinishLine : Spawnable
+    public class LoseHandler : Spawnable
     {
         const string k_PlayerTag = "Player";
         
         [SerializeField]
-        AbstractGameEvent m_WinEvent;
+        AbstractGameEvent m_LoseEvent;
 
         void OnTriggerEnter(Collider col)
         {
             if (col.CompareTag(k_PlayerTag))
             {
-                Debug.Log("Finished!");
-                m_WinEvent.Raise();
-                GameManager.Instance.Win();
+                Debug.Log("Failed!");
+                CameraManager.Instance.enabled = false;
+                GameManager.Instance.Lose();
             }
         }
     }

@@ -36033,6 +36033,14 @@
                     {
                         "name": "CancelMovement",
                         "excluded": false
+                    },
+                    {
+                        "name": "AdjustSpeed",
+                        "excluded": false
+                    },
+                    {
+                        "name": "AdjustScale",
+                        "excluded": false
                     }
                 ]
             }

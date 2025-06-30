@@ -91,18 +91,22 @@ namespace HyperCasual.Runner
         public void Win()
         {
             PlayableSettings.Instance.CallLevelCompleteAnalytics();
+            PlayerController.Instance.active = false;
+            PlayerController.Instance.rb.isKinematic = true;
 
-#if UNITY_EDITOR
-            if (m_LevelEditorMode)
-            {
-                ResetLevel();
-            }
-#endif
+            #if UNITY_EDITOR
+                if (m_LevelEditorMode)
+                {
+                    ResetLevel();
+                }
+            #endif
         }
 
         public void Lose()
         {
             m_LoseEvent.Raise();
+            PlayableSettings.Instance.CallDeathAnalytics();
+            CameraManager.Instance.enabled = false;
 
 #if UNITY_EDITOR
             if (m_LevelEditorMode)

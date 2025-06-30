@@ -6,11 +6,13 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] float moveForce = 5f;
     [SerializeField] float maxSpeed = 5f;
+    public bool active = true;
 
-    Rigidbody rb;
+    public Rigidbody rb;
 
     void Awake()
     {
+        active = true;
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
@@ -23,6 +25,7 @@ public class PlayerController : MonoBehaviour
 
     public void RollSphere(Vector3 direction)
     {
+        if (!active) return;
         rb.AddForce(direction * moveForce, ForceMode.Force);
 
         // Clamp max velocity
