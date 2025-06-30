@@ -99,10 +99,10 @@
             ]
         },
         "scenes": [
-            "Assets/Game/Shared/Scenes/LunaDemo.unity"
+            "Assets/Scenes/LunaDemo.unity"
         ],
         "disabledScenes": [
-            "Assets/Game/Shared/Scenes/MyGame.unity"
+            "Assets/Scenes/MyGame.unity"
         ],
         "startupScene": 0,
         "packages": {

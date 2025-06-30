@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Game/Shared/Scenes/LunaDemo.unity
+    path: Assets/Scenes/LunaDemo.unity
     guid: c08c9c64ef12d4b4b8d662c37aa3afab
   - enabled: 1
-    path: Assets/Game/Shared/Scenes/MyGame.unity
+    path: Assets/Scenes/MyGame.unity
     guid: 4e364834fc42f492f8b462c19367c9e0
   m_configObjects: {}

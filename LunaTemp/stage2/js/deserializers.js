@@ -3194,9 +3194,9 @@ Deserializers.disableAntiAliasing = true;
 
 Deserializers.graphicsConstraint = 28;
 
-Deserializers.linearColorSpace = true;
+Deserializers.linearColorSpace = false;
 
-Deserializers.buildID = "88d804ed-15c0-4eb9-8881-05f883090c96";
+Deserializers.buildID = "8505f18f-2b2e-4a05-8ebd-888de7315c6d";
 
 Deserializers.runtimeInitializeOnLoadInfos = [[["Unity","Collections","NativeLeakDetection","Initialize"],["UnityEngine","Experimental","Rendering","ScriptableRuntimeReflectionSystemSettings","ScriptingDirtyReflectionSystemInstance"]],[["Unity","VisualScripting","RuntimeVSUsageUtility","RuntimeInitializeOnLoadBeforeSceneLoad"]],[],[],[]];
 

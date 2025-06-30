@@ -1,1 +1,1 @@
-{"id":23844,"path":"Assets\/Game\/Runner\/Prefabs\/Inventory.prefab","assetBundleId":-1,"components":[{"type":26,"id":23904,"data":[0,0,0,1,1,1,0,0,0,1]},{"type":5,"id":23906,"enabled":1,"class":35,"data":[[36,23792],[36,23708],[37,23822]]}],"children":[],"data":["Inventory",0,1,0,0]}
+{"id":23844,"path":"Assets\/LunaAssets\/Runner\/Prefabs\/Inventory.prefab","assetBundleId":-1,"components":[{"type":26,"id":23904,"data":[0,0,0,1,1,1,0,0,0,1]},{"type":5,"id":23906,"enabled":1,"class":35,"data":[[36,23792],[36,23708],[37,23822]]}],"children":[],"data":["Inventory",0,1,0,0]}
