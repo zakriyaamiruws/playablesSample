@@ -35796,7 +35796,7 @@
                     },
                     {
                         "name": "isKinematic#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "detectCollisions#get",
@@ -36041,6 +36041,42 @@
                     {
                         "name": "AdjustScale",
                         "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "HyperCasual.Runner.LoseHandler",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnTriggerEnter",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "LevelFailedHandler",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Start",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnEventRaised",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EndSequence",
+                        "excluded": true
                     }
                 ]
             }
