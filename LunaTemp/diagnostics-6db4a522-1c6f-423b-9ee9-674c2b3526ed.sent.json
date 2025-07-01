@@ -1,23 +1,24 @@
 {
-    "BuildID": "5304f073-b11f-4332-b10e-202e0e8b374d",
-    "Command": "project:re",
+    "BuildID": "6db4a522-1c6f-423b-9ee9-674c2b3526ed",
+    "Command": "project:deploy",
     "ProjectID": "823cbd53-5386-408c-9595-fde0da052c3e",
-    "ProjectStateHash": "e0915b127b9aa9f992336040b089f441deed4ac9115c2d36d08a025e8b79fc7e",
-    "StageCompletedAt": 2,
+    "ProjectStateHash": "5312da868fc8ef5dfb7632cdb46124c619d85315072c2f01ab6c4ba7b6cade64",
+    "StageCompletedAt": 3,
     "EarliestFatalError": 0,
-    "StartTime": 1751352072096,
-    "EndTime": 1751352087360,
+    "StartTime": 1751355469595,
+    "EndTime": 1751355492685,
     "PlaygroundUserID": 25185,
     "OperatingSystem": "darwin",
-    "TargetPlatform": "develop",
+    "UnityPackageID": null,
+    "TargetPlatform": "playground",
     "UnityVersion": "2021.3.18f1",
     "LunaVersion": "6.3.0",
     "LogCount": 15,
     "Logs": [
         {
-            "LogID": "18eb010d-4dcc-4b5c-89b8-9845eaaf1fe9",
+            "LogID": "c90ffdf6-3518-4fbd-bb55-d1679abaee2c",
             "Order": 13,
-            "Timestamp": 1751351688133,
+            "Timestamp": 1751355492748,
             "Stage": 3,
             "ErrorType": 0,
             "ErrorCode": "LP3013",
@@ -39,9 +40,9 @@
             "Severity": 0
         },
         {
-            "LogID": "222bdb4b-0f1d-4b1c-90df-be47f16819f3",
+            "LogID": "466fea33-52b8-4360-a3f7-792a4bcd817c",
             "Order": 13,
-            "Timestamp": 1751351688133,
+            "Timestamp": 1751355492748,
             "Stage": 3,
             "ErrorType": 0,
             "ErrorCode": "LP3013",
@@ -63,9 +64,9 @@
             "Severity": 0
         },
         {
-            "LogID": "ca7455cf-5f58-4f27-b277-329f801560e6",
+            "LogID": "697bd366-6709-4714-9462-466433ce8ba7",
             "Order": 13,
-            "Timestamp": 1751351688211,
+            "Timestamp": 1751355492824,
             "Stage": 3,
             "ErrorType": 3,
             "ErrorCode": "LP3008",
@@ -87,10 +88,10 @@
             "Severity": 0
         },
         {
-            "LogID": "d024270e-7ac8-43b3-aa9e-29f79c9479de",
-            "Timestamp": 1751352073121,
+            "LogID": "c8941ef2-fd09-4cfa-bce2-efcfa06ecb4d",
+            "Order": 0,
+            "Timestamp": 1751355470713,
             "Stage": 1,
-            "Severity": 0,
             "ErrorType": 0,
             "ErrorCode": "LP1030",
             "Description": "TMP Font Asset uses unsupported 'Atlas Population Mode'",
@@ -103,17 +104,17 @@
                 "Dynamic"
             ],
             "LogCount": 1,
-            "FilePath": "",
             "LinePosition": 0,
+            "FilePath": "",
             "ClassName": "",
             "MemberName": "",
-            "Order": 3
+            "Severity": 0
         },
         {
-            "LogID": "c6d1b67f-fd2e-4296-951d-0641f9fad9e3",
-            "Timestamp": 1751352073406,
+            "LogID": "b9fe4d55-fa67-4a1f-95de-fd088804f876",
+            "Order": 1,
+            "Timestamp": 1751355470956,
             "Stage": 1,
-            "Severity": 0,
             "ErrorType": 2,
             "ErrorCode": "LP1001",
             "Description": "Update shader stripping settings",
@@ -123,17 +124,17 @@
             "DescriptionValues": [],
             "DetailsValues": [],
             "LogCount": 1,
-            "FilePath": "",
             "LinePosition": 0,
+            "FilePath": "",
             "ClassName": "",
             "MemberName": "",
-            "Order": 4
+            "Severity": 0
         },
         {
-            "LogID": "e91b7a4c-09b8-41d0-b9fa-22e394dd73f3",
-            "Timestamp": 1751352073769,
+            "LogID": "c8af0575-c960-4a71-af1d-841bb13ab47e",
+            "Order": 2,
+            "Timestamp": 1751355471198,
             "Stage": 1,
-            "Severity": 0,
             "ErrorType": 0,
             "ErrorCode": "LP1009",
             "Description": "Playground Asset has no default value",
@@ -146,17 +147,17 @@
                 "EndCardController"
             ],
             "LogCount": 1,
-            "FilePath": "",
             "LinePosition": 0,
+            "FilePath": "",
             "ClassName": "",
             "MemberName": "",
-            "Order": 5
+            "Severity": 0
         },
         {
-            "LogID": "15420feb-d699-4e14-8fe6-45bc3481ed18",
-            "Timestamp": 1751352073769,
+            "LogID": "18eb4810-71b4-4ea9-8312-5a173992bfde",
+            "Order": 3,
+            "Timestamp": 1751355471198,
             "Stage": 1,
-            "Severity": 0,
             "ErrorType": 0,
             "ErrorCode": "LP1009",
             "Description": "Playground Asset has no default value",
@@ -169,17 +170,17 @@
                 "EndCardController"
             ],
             "LogCount": 1,
-            "FilePath": "",
             "LinePosition": 0,
+            "FilePath": "",
             "ClassName": "",
             "MemberName": "",
-            "Order": 6
+            "Severity": 0
         },
         {
-            "LogID": "72d4be4f-a5e2-4c63-9d85-69fd938c8b00",
-            "Timestamp": 1751352073769,
+            "LogID": "390b3e17-4e4b-4b42-bc0b-b141af9e375a",
+            "Order": 4,
+            "Timestamp": 1751355471198,
             "Stage": 1,
-            "Severity": 0,
             "ErrorType": 0,
             "ErrorCode": "LP1009",
             "Description": "Playground Asset has no default value",
@@ -192,17 +193,17 @@
                 "EndCardController"
             ],
             "LogCount": 1,
-            "FilePath": "",
             "LinePosition": 0,
+            "FilePath": "",
             "ClassName": "",
             "MemberName": "",
-            "Order": 7
+            "Severity": 0
         },
         {
-            "LogID": "071ef34c-ef06-4744-aa19-31e7d8a6989d",
-            "Timestamp": 1751352073769,
+            "LogID": "61bf64c2-8946-43d3-bcdf-bcaaea0b73da",
+            "Order": 5,
+            "Timestamp": 1751355471198,
             "Stage": 1,
-            "Severity": 0,
             "ErrorType": 0,
             "ErrorCode": "LP1009",
             "Description": "Playground Asset has no default value",
@@ -215,17 +216,17 @@
                 "EndCardController"
             ],
             "LogCount": 1,
-            "FilePath": "",
             "LinePosition": 0,
+            "FilePath": "",
             "ClassName": "",
             "MemberName": "",
-            "Order": 8
+            "Severity": 0
         },
         {
-            "LogID": "ebb2646c-8fe9-4c4d-a6bc-5e4feaaf94d5",
-            "Timestamp": 1751352073769,
+            "LogID": "33b7917c-edaa-425a-81e2-3cced8da3135",
+            "Order": 6,
+            "Timestamp": 1751355471198,
             "Stage": 1,
-            "Severity": 0,
             "ErrorType": 0,
             "ErrorCode": "LP1009",
             "Description": "Playground Asset has no default value",
@@ -238,17 +239,17 @@
                 "EndCardController"
             ],
             "LogCount": 1,
-            "FilePath": "",
             "LinePosition": 0,
+            "FilePath": "",
             "ClassName": "",
             "MemberName": "",
-            "Order": 9
+            "Severity": 0
         },
         {
-            "LogID": "7a5b842a-5501-4a6e-aa66-c9eb084526aa",
-            "Timestamp": 1751352073769,
+            "LogID": "58dcea78-9585-49bf-91d7-95fabdf0a55a",
+            "Order": 7,
+            "Timestamp": 1751355471198,
             "Stage": 1,
-            "Severity": 0,
             "ErrorType": 0,
             "ErrorCode": "LP1009",
             "Description": "Playground Asset has no default value",
@@ -261,17 +262,17 @@
                 "EndCardController"
             ],
             "LogCount": 1,
-            "FilePath": "",
             "LinePosition": 0,
+            "FilePath": "",
             "ClassName": "",
             "MemberName": "",
-            "Order": 10
+            "Severity": 0
         },
         {
-            "LogID": "e7f91df2-0f3a-4ab1-876a-3f2c6d8d8f3e",
-            "Timestamp": 1751352083755,
+            "LogID": "565d29e4-f8db-4f09-80c2-0aa2edf14f77",
+            "Order": 8,
+            "Timestamp": 1751355471895,
             "Stage": 1,
-            "Severity": 0,
             "ErrorType": 2,
             "ErrorCode": "LP1022",
             "Description": "Extensive use of shader variants",
@@ -284,17 +285,17 @@
                 "34"
             ],
             "LogCount": 1,
-            "FilePath": "",
             "LinePosition": 0,
+            "FilePath": "",
             "ClassName": "",
             "MemberName": "",
-            "Order": 11
+            "Severity": 0
         },
         {
-            "LogID": "ba1ba4bc-a424-400e-8e77-a8c9fa1e0322",
-            "Timestamp": 1751352083760,
+            "LogID": "cff85a16-3803-4562-bba9-5567ef8f78a6",
+            "Order": 9,
+            "Timestamp": 1751355471898,
             "Stage": 1,
-            "Severity": 0,
             "ErrorType": 0,
             "ErrorCode": "LP1032",
             "Description": "Package(s) is not supported in Luna",
@@ -308,17 +309,17 @@
                 "com.unity.timeline"
             ],
             "LogCount": 1,
-            "FilePath": "/Users/zakriyaamir/playablesSample/Packages/manifest.json",
             "LinePosition": 0,
+            "FilePath": "/Users/zakriyaamir/playablesSample/Packages/manifest.json",
             "ClassName": "",
             "MemberName": "",
-            "Order": 12
+            "Severity": 0
         },
         {
-            "LogID": "dc50413e-5b9c-4189-b3ae-06bcb4dd9515",
-            "Timestamp": 1751352083760,
+            "LogID": "d8c1e409-a664-4c9d-99b0-de8ad96c0598",
+            "Order": 10,
+            "Timestamp": 1751355471898,
             "Stage": 1,
-            "Severity": 0,
             "ErrorType": 3,
             "ErrorCode": "LP1002",
             "Description": "Repeat wrap mode used on a texture with non power-of-two dimensions, this might not be rendered correctly.",
@@ -331,17 +332,17 @@
                 "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset"
             ],
             "LogCount": 1,
-            "FilePath": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
             "LinePosition": 0,
+            "FilePath": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
             "ClassName": "",
             "MemberName": "",
-            "Order": 13
+            "Severity": 0
         },
         {
-            "LogID": "00762175-810c-4985-8122-ba9714338e4f",
-            "Timestamp": 1751352083761,
+            "LogID": "f3d84225-cf8c-4d0a-ba15-b6bc31f0aeed",
+            "Order": 11,
+            "Timestamp": 1751355471898,
             "Stage": 1,
-            "Severity": 0,
             "ErrorType": 2,
             "ErrorCode": "LP1010",
             "Description": "Looks like a collider was scaled, this might affect performance.",
@@ -450,11 +451,11 @@
             "DescriptionValues": [],
             "DetailsValues": [],
             "LogCount": 100,
-            "FilePath": "",
             "LinePosition": 0,
+            "FilePath": "",
             "ClassName": "",
             "MemberName": "",
-            "Order": 14
+            "Severity": 0
         }
     ]
 }
